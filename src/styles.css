@@ -1,0 +1,18 @@
+body {
+  background: #282828;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+  position: relative;
+}
+
+.App {
+  font-family: sans-serif;
+  max-width: 320px;
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
