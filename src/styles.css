@@ -10,7 +10,7 @@ body {
 
 .App {
   font-family: sans-serif;
-  max-width: 320px;
+  width: fit-content;
   min-height: 90vh;
   display: flex;
   align-items: center;

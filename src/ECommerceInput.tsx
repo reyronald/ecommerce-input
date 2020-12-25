@@ -5,7 +5,7 @@ import { default as BaseMaskedInput } from 'react-text-mask'
 
 import { color, font } from './theme'
 
-export const dateMask: ReadonlyArray<RegExp | string> = [
+export const dateMask: Array<RegExp | string> = [
   /\d/,
   /\d/,
   '/',
@@ -195,7 +195,7 @@ export const ECommerceInput = React.forwardRef<
 })
 
 type ECommerceMaskedInputProps = {
-  mask: ReadonlyArray<string | RegExp>
+  mask: Array<string | RegExp>
 } & ECommerceInputProps
 
 export const ECommerceMaskedInput: React.FC<ECommerceMaskedInputProps> = ({
